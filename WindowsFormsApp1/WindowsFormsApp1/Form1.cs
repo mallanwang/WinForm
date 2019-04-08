@@ -19,6 +19,7 @@ namespace WindowsFormsApp1
 
         private void Button1_Click(object sender, EventArgs e)
         {
+            label1.Text = "Hello World";
             MessageBox.Show("Hello World");
         }
     }
